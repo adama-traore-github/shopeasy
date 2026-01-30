@@ -1,0 +1,110 @@
+[
+  {
+    "id": "p1",
+    "name": "Casque Sans Fil",
+    "description": "Son haute qualité avec technologie de réduction de bruit active.",
+    "price": 120000,
+    "imageUrl": "assets/images/electronics/headphone.png",
+    "categoryId": "1",
+    "isFeatured": true
+  },
+  {
+    "id": "p2",
+    "name": "Montre Connectée",
+    "description": "Suivi de la forme physique, surveillance de la fréquence cardiaque et GPS.",
+    "price": 85000,
+    "imageUrl": "assets/images/electronics/smartwatch.png",
+    "categoryId": "1",
+    "isFeatured": true
+  },
+  {
+    "id": "p7",
+    "name": "Smartphone Premium",
+    "description": "Dernier cri, écran haute résolution et appareil photo pro.",
+    "price": 450000,
+    "imageUrl": "assets/images/electronics/smartphone.png",
+    "categoryId": "1",
+    "isFeatured": true
+  },
+  {
+    "id": "p3",
+    "name": "Chaussures de Running",
+    "description": "Chaussures légères et confortables pour le jogging quotidien.",
+    "price": 45000,
+    "imageUrl": "assets/images/fashion/sneaker.png",
+    "categoryId": "2",
+    "isFeatured": false
+  },
+  {
+    "id": "p4",
+    "name": "Montre Classique",
+    "description": "Montre élégante avec bracelet en cuir véritable.",
+    "price": 60000,
+    "imageUrl": "assets/images/fashion/watch.png",
+    "categoryId": "2",
+    "isFeatured": true
+  },
+  {
+    "id": "p8",
+    "name": "T-Shirt Coton",
+    "description": "100% coton premium, coupe ajustée et confortable.",
+    "price": 15000,
+    "imageUrl": "assets/images/fashion/tshirt.png",
+    "categoryId": "2",
+    "isFeatured": false
+  },
+  {
+    "id": "p5",
+    "name": "Canapé Moderne",
+    "description": "Canapé confortable au design contemporain pour votre salon.",
+    "price": 350000,
+    "imageUrl": "assets/images/home/sofa.png",
+    "categoryId": "3",
+    "isFeatured": true
+  },
+  {
+    "id": "p9",
+    "name": "Lampe de Table",
+    "description": "Éclairage doux et design élégant pour votre bureau.",
+    "price": 25000,
+    "imageUrl": "assets/images/home/lamp.png",
+    "categoryId": "3",
+    "isFeatured": false
+  },
+  {
+    "id": "p10",
+    "name": "Vase Céramique",
+    "description": "Vase décoratif minimaliste pour une touche d'élégance.",
+    "price": 12000,
+    "imageUrl": "assets/images/home/vase.png",
+    "categoryId": "3",
+    "isFeatured": false
+  },
+  {
+    "id": "p6",
+    "name": "Parfum Élégant",
+    "description": "Fragrance sophistiquée aux notes florales et boisées.",
+    "price": 55000,
+    "imageUrl": "assets/images/beauty/perfume.png",
+    "categoryId": "4",
+    "isFeatured": true
+  },
+  {
+    "id": "p11",
+    "name": "Crème Hydratante",
+    "description": "Hydratation intense pour une peau douce et éclatante.",
+    "price": 18000,
+    "imageUrl": "assets/images/beauty/cream.png",
+    "categoryId": "4",
+    "isFeatured": false
+  },
+  {
+    "id": "p12",
+    "name": "Rouge à Lèvres",
+    "description": "Couleur riche et tenue longue durée.",
+    "price": 8000,
+    "imageUrl": "assets/images/beauty/lipstick.png",
+    "categoryId": "4",
+    "isFeatured": false
+  }
+]

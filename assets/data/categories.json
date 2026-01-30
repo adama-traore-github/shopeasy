@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "name": "Électronique",
+        "imageUrl": "assets/images/categories/electronics.png"
+    },
+    {
+        "id": "2",
+        "name": "Mode",
+        "imageUrl": "assets/images/categories/fashion.png"
+    },
+    {
+        "id": "3",
+        "name": "Maison",
+        "imageUrl": "assets/images/categories/home.png"
+    },
+    {
+        "id": "4",
+        "name": "Beauté",
+        "imageUrl": "assets/images/categories/beauty.png"
+    }
+]
