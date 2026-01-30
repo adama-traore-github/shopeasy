@@ -380,6 +380,40 @@ class _HomeScreenState extends State<HomeScreen> {
                       return ProductCard(product: product);
                     },
                   ),
+                  const SizedBox(height: 32),
+                  // All Products section (excluding featured)
+                  if (productProvider.nonFeaturedProducts.isNotEmpty) ...[
+                    const Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 20),
+                      child: Text(
+                        'Tous les produits',
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                          color: AppColors.textPrimary,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 16),
+                    GridView.builder(
+                      padding: const EdgeInsets.symmetric(horizontal: 20),
+                      shrinkWrap: true,
+                      physics: const NeverScrollableScrollPhysics(),
+                      gridDelegate:
+                          const SliverGridDelegateWithFixedCrossAxisCount(
+                            crossAxisCount: 2,
+                            childAspectRatio: 0.7,
+                            crossAxisSpacing: 16,
+                            mainAxisSpacing: 16,
+                          ),
+                      itemCount: productProvider.nonFeaturedProducts.length,
+                      itemBuilder: (context, index) {
+                        final product =
+                            productProvider.nonFeaturedProducts[index];
+                        return ProductCard(product: product);
+                      },
+                    ),
+                  ],
                 ],
               ],
             ),

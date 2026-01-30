@@ -66,6 +66,10 @@ class ProductProvider extends ChangeNotifier {
     return _products.where((p) => p.isFeatured).toList();
   }
 
+  List<Product> get nonFeaturedProducts {
+    return _products.where((p) => !p.isFeatured).toList();
+  }
+
   List<Product> getProductsByCategory(String categoryId) {
     return _products.where((p) => p.categoryId == categoryId).toList();
   }

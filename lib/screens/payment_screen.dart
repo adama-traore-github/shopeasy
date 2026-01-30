@@ -127,14 +127,14 @@ class _PaymentScreenState extends State<PaymentScreen> {
               id: 'orange',
               name: 'Orange Money',
               color: Colors.orange,
-              logoUrl: 'assets/images/orange_logo.png',
+              logoUrl: 'assets/images/logos/orange_logo.png',
             ),
             const SizedBox(height: 16),
             _buildPaymentMethod(
               id: 'moov',
               name: 'Moov Money',
               color: Colors.blue,
-              logoUrl: 'assets/images/moov_logo.png',
+              logoUrl: 'assets/images/logos/moov_logo.png',
             ),
             const SizedBox(height: 48),
             SizedBox(
